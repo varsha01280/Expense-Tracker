@@ -14,7 +14,7 @@ connectDB();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173"
+      "https://expense-tracker-pearl-alpha-40.vercel.app/login"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
